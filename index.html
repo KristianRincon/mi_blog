@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <style>
+        table, th, td {
+            border: 1px solid rgb(46, 21, 21);
+        }
+    </style>
+    <title>Mi primera web</title>
+</head>
+<body>
+    <table style="width: 500px;">
+        <thead>
+        <tr>
+            <th>Precio</th>
+            <th>Producto</th>
+        </tr>
+        </thead>
+       <tbody>
+        <tr>
+            <td>Hola beats</td>
+            <td>Gratis</td>
+        </tr>
+        <tr>
+            <td>Hola beats que mas</td>
+            <td>1000$</td>
+        </tr>
+        <tr>
+            <td>Hola beats que re contra mas</td>
+            <td>1000$</td>
+        </tr>
+       </tbody>
+       <tfoot>
+           <td></td>
+           <td>Total: 2000$</td>
+       </tfoot>
+    </table>
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!--ol es lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: upper-roman;">sub Elemento 1</li>
+                <li style="list-style-type: lower-alpha;">sub Elemento 2</li>
+                <li style="list-style-type: lower-alpha;">sub Elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <form action="/formulario" method="POST">
+        <label for="Nombre">Nombre</label>
+        <input value="caremonda"type="text" id="Nombre" name="lala" placeholder="Nombre"/>
+        <br>
+        <label for="Apellido">Apellido</label>
+        <input value="no joda"type="text" id="Apellido" name="Apellido" placeholder="lo que sea"/>
+        <br>
+        <label for="comentario">comentario</label><br>
+        <textarea cols="50" rows="10" id="comentario" name="comentario" placeholder="ingrese comentario" >por defecto </textarea>
+        <br>
+        <button type="button"><img src="img/rosi.jpg"> tipo boton</button>
+        <button type="reset"> tipo reset</button>
+        <button type="submit"> tipo submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>MI quinto heading</h5>
+    <h6>Blog Interesante</h6>
+    <p>Escribir todo lo que quieras </p>
+    <p>Con respeto hacia los demas</p>
+    <hr>
+    <h2>Que le parecio la pelicula de Tundama</h2>
+    <p>aca escribe mas <span style="color:brown">texto y es para mostrar la
+    </span> <br> etiqueta de spam!
+    </p>
+    <!-- este texto es un comentario en html-->
+    <a target="_blank" href="https://www.google.co">Ir a google</a>
+    <img src="img/rosi.jpg" height="300" width="400"/>
+    <form>
+        <input />
+    </form>
+</body>
+</html>
